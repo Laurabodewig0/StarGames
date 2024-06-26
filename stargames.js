@@ -60,6 +60,7 @@ function start() {
                 break
             case '5':
                 rl.close()
+                break
             default:
                 console.log('OPÇÃO INVÁLIDA, TENTE NOVAMENTE.')
                 exibirEmulador()
@@ -136,4 +137,5 @@ function removerconsole() {
             removerconsole()
         }
     })
+    exibirEmulador()
 }
