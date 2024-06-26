@@ -137,24 +137,3 @@ function removerconsole() {
         }
     })
 }
-}
-
-function removerconsole() {
-    console.log('LISTA DE CONSOLES')
-    consoles.forEach((consoles, index) => {
-        console.log(`${index + 1}. ${consoles.nome}`)
-    })
-    rl.question('DIGITE O NÚMERO DO CONSOLE QUE DESEJA REMOVER: ', (numero) => {
-        numero = parseInt(numero)
-
-        if(numero > 0 && numero <= consoles.length) {
-            consoles.splice(numero -1, 1)
-            console.log('CONSOLE EXCLUÍDO COM SUCESSO')
-            exibirEmulador()
-        }
-        else{
-            console.log('OPÇÃO INVÁLIDA, TENTE NOVAMENTE.')
-            removerconsole()
-        }
-    })
-}
