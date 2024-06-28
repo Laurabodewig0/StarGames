@@ -1,22 +1,22 @@
 # Emulator Star Games
- Um programa de emuladores que respondem conforme o usuario digita as opcoes sugeridas pelo programa.
-# Funçoes Básicas
-Funçoes básicas são **Start** e **Exit** e fazem :
-* Start: inicia o emulador;
-* Exit: encerra o programa;
+ Um programa de emuladores que respondem conforme o usuário digita as opções sugeridas pelo programa.
+# Funções Básicas
+Funções básicas são **Start** e **Exit** e fazem :
+* **Start**: inicia o emulador;
+* **Exit**: encerra o programa;
 ```JavaScript
   👾EMULADOR STAR⭐GAMES👾
             Y. START
             N. EXIT
 ```
 
-# Menu e Funçoes Principais
-Esse é o Menu e as funçoes principais são:
-* Inserir;
-* Alterar;
-* Listar;
-* Remover;
-* Sair;
+# Menu e Funções Principais
+Esse é o **Menu** e as funções principais são:
+* **Inserir**;
+* **Alterar**;
+* **Listar**;
+* **Remover**;
+* **Sair**;
 
 ```JavaScript
   MENU:
@@ -27,7 +27,7 @@ Esse é o Menu e as funçoes principais são:
     5. SAIR
 ```
 
-1. Inserir Console: 
+1. **Inserir Console**: 
 * Descrição: Esta função permite ao usuário adicionar um novo console à coleção de consoles suportados pelo emulador.
 
 ```JavaScript
@@ -43,7 +43,7 @@ function inserirconsole() {
 ```
 Processo: Solicita as informações do usuário, valida os dados inseridos e armazena o novo console na estrutura de dados apropriada.
 
-2. Alterar Console:
+2. **Alterar Console**:
 * Descrição: Esta função permite ao usuário modificar as informações de um console previamente inserido na coleção do emulador.
 
 ```JavaScript
@@ -73,7 +73,7 @@ function alterarconsole() {
 ```
  Processo: Exibe a lista de consoles, permite a seleção de um console específico, solicita as novas informações, valida os dados e atualiza a entrada existente na estrutura de dados.
 
-3. Listar Console:
+3. **Listar Console**:
 * Descrição: Esta função exibe ao usuário a lista completa de todos os consoles atualmente inseridos no emulador.
 
 ```JavaScript
@@ -95,7 +95,7 @@ function listarconsole() {
 ```
 Processo: Acessa a estrutura de dados que armazena os consoles e itera sobre ela para exibir todas as entradas ao usuário.
 
-4. Remover Descrição:
+4. **Remover Console**:
 * Descrição: Esta função permite ao usuário remover um console específico da coleção de consoles do emulador.
 
 ```JavaScript
@@ -122,7 +122,7 @@ function removerconsole() {
 ```
 Processo: Exibe a lista de consoles, permite a seleção de um console específico, valida a seleção e remove o console da estrutura de dados.
 
-5. Sair:
+5. **Sair**:
 * Descrição: Esta função permite ao usuário encerrar a execução do emulador de forma segura.
 
 ```JavaScript
